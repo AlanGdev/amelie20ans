@@ -21,34 +21,59 @@ h1{
 } 
 
 .box img{
-    max-width: 600px;
+    max-width: 400px;
     max-height: 400px;
     height: auto;
-    display: block;
     padding: 10px;
     border-radius: 20px;
     justify-self: center;
-    align-self: center;
 } 
 p{
     padding: 20px;
     border-radius: 20px;
     font-size: 1.3rem;
     background-color: rgba(215, 146, 42, 0.5);
-    color:white
+    color:white;
+    margin: auto;
 }
 h2{
     font-size: 2.3em;
 }
 #jour1{
     background-image: url("images/totoroJour1.jpg");
-    background-color: rgba(240, 255, 2550.5);
+    background-color: rgba(240, 255, 255,0.5);
     padding: 20px;
     border-radius: 20px;
 }
+#jour2{
+    background-image: url("images/imageFondJour2.jpg");
+    padding: 20px;
+    border-radius: 20px;
+}
+#jour3{
+    background-image: url("images/totoroMenara.jpg");
+    padding: 20px;
+    border-radius: 20px;
+}
+#jour4{
+    background-image: url("images/totoroBusEssaouira.jpg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+}
+#jour5{
+    background-image: url("images/totoroEssaouiraPlage.jpg");
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
 a{
     text-decoration: none;
     color: black;
     padding: 15px;
     font-size: 1.2em;
+}
+.photoVoyage{
+    background-image: none;
 }
