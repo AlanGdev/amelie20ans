@@ -1,0 +1,40 @@
+
+body{
+    background: linear-gradient(rgba(210, 223, 107, 0.124), rgba(209, 209, 100, 0.6)), url('images/imageDeFond.jpg');
+}
+h1{
+    text-align: center;
+    font-size: 2.7rem;
+    color: cadetblue;
+    text-shadow: 5px 5px 5px black;
+    background:linear-gradient(rgba(228, 177, 36, 0.839),rgba(228, 177, 36, 0.1));
+}
+.sousTitre{
+    font-size: 2rem;
+}
+h2{
+    background-color: rgba(103, 95, 51, 0.711);
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+}
+ul{
+    padding: 50px;
+    background-color: rgba(237, 237, 221, 0.758);
+    border-radius: 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    width: 90%;
+    margin: auto;
+    align-items: top;
+}
+a{
+    color: black;
+    text-align: end;
+    text-decoration: none;
+    margin: 15px;
+}
