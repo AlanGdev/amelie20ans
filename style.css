@@ -75,3 +75,11 @@ h2{
     display: block;
     text-align: center;
 }
+.lettreTotoro main{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.lettreTotoro p{
+    grid-column: 2/4;
+}

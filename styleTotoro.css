@@ -1,6 +1,18 @@
+body{
+    background-image: url("images/imageDeFond.jpg");
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.53);
+    text-align: right;
+    position: sticky;
+    top: 0;
+}   
 h1{
-    text-shadow: 5px 5px 5px rgb(201, 205, 7);
-    font-size: 3.3em;
+    text-shadow: 5px 10px 5px rgb(234, 201, 56);
+    font-size: 4em;
+    text-align: right;
+    border-radius: 20px;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.566),rgba(255, 255, 255, 0.701));
 }
 .container{
     display:grid;
@@ -14,7 +26,8 @@ h1{
     padding: 20px;
     grid-template-columns: 1.5fr 1fr;
     text-align: justify;
-    border: 1px solid gray;
+    align-items: center;
+    border: 3px solid rgb(239, 228, 228);
     border-radius: 50px;
     max-width: 1200px;
     
@@ -27,42 +40,75 @@ h1{
     padding: 10px;
     border-radius: 20px;
     justify-self: center;
+    gap: 10px;
 } 
 p{
     padding: 20px;
     border-radius: 20px;
-    font-size: 1.3rem;
-    background-color: rgba(215, 146, 42, 0.5);
-    color:white;
+    font-family: "Dawning of a New Day",cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: rgba(230, 221, 207, 0.766);
+    color:rgb(72, 56, 175);
     margin: auto;
 }
 h2{
+    padding: 10px;
+    border-radius: 20px;
     font-size: 2.3em;
+    background-color: rgba(255, 255, 255, 0.702);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.532);
 }
 #jour1{
     background-image: url("images/totoroJour1.jpg");
+    background-position: center;
+
     background-color: rgba(240, 255, 255,0.5);
     padding: 20px;
     border-radius: 20px;
 }
 #jour2{
     background-image: url("images/imageFondJour2.jpg");
+    background-position: center;
+
     padding: 20px;
     border-radius: 20px;
 }
 #jour3{
     background-image: url("images/totoroMenara.jpg");
+    background-position: center;
+
     padding: 20px;
     border-radius: 20px;
 }
 #jour4{
-    background-image: url("images/totoroBusEssaouira.jpg");
+    background-image: url("images/imageFondJour5.jpg");
+    background-position: center;
+
     background-size: cover;
     padding: 20px;
     border-radius: 20px;
 }
 #jour5{
-    background-image: url("images/totoroEssaouiraPlage.jpg");
+    background-position: center;
+    background-image: url("images/essaouiraMedina.jpeg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+}
+#jour6{
+    background-image: url("images/imageDeFondJour6.jpg");
+    background-position: center;
+
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+}
+#jour7{
+    background-image: url("images/imageFondJour7.jpg");
+    background-position: center;
+    background-color: rgba(174, 128, 52, 0.717);
+    background-size: cover;
     padding: 20px;
     border-radius: 20px;
 }
@@ -70,10 +116,33 @@ h2{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(241, 238, 238);
     padding: 15px;
     font-size: 1.2em;
 }
 .photoVoyage{
     background-image: none;
+}
+.lettreTotoro{
+    background-image: url("images/totoroPapierALettres.jpg");
+    background-size: 100%;
+}
+.lettreTotoro main{
+    font-family: "Dawning of a New Day",cursive;
+    font-weight: 600;
+}
+.lettreTotoro p{
+    padding-top: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 2em;
+    color: rgb(39, 39, 164);
+}
+.navLettre{
+    height:100 px;
+}
+.croquis{
+    padding: 0;
+    margin: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
 }

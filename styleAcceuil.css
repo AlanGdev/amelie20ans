@@ -1,7 +1,8 @@
 
 body{
-    background-image: url('images/totoroAnniversaire.jpg') ;
-    background-size: cover;
+    background-image: url('images/joyeuxAnniversaire.jpg') ;
+    background-size: 100%;
+    background-position: top;
 }
 h1{
     text-align: center;
