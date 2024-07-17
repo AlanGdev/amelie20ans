@@ -29,7 +29,7 @@ h1{
     flex-wrap: wrap;
     padding: 20px;
     grid-template-columns: 1.5fr 1fr;
-    justify-content: center;
+    margin:auto;
     align-items: flex-start;
     border: 3px solid rgb(239, 228, 228);
     border-radius: 50px;
@@ -51,7 +51,7 @@ p{
     max-width: 600px;
     font-family: "Dawning of a New Day",cursive;
     font-size: 1.7rem;
-    background-color: rgba(230, 221, 207, 0.766);
+    background-color: rgba(254, 254, 254, 0.86);
     color:rgb(37, 51, 153);
     margin-bottom: 15px;
 }
