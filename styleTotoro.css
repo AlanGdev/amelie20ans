@@ -1,5 +1,6 @@
-body{
+.carnet{
     background-image: url("images/imageDeFond.jpg");
+    background-attachment: fixed;
 }
 nav{
     background-color: rgba(0, 0, 0, 0.53);
@@ -38,7 +39,7 @@ h1{
     max-height: 400px;
     height: auto;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 150px;
     justify-self: center;
     gap: 10px;
 } 
@@ -58,6 +59,9 @@ h2{
     font-size: 2.3em;
     background-color: rgba(255, 255, 255, 0.702);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.532);
+    position: sticky;
+    top: 20px;
+
 }
 #jour1{
     background-image: url("images/totoroJour1.jpg");
@@ -112,6 +116,15 @@ h2{
     padding: 20px;
     border-radius: 20px;
 }
+#jour8{
+    background-image: url("images/imageFondJour8.jpg");
+    background-position: center;
+    background-color: rgba(174, 128, 52, 0.717);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 
 
 a{
@@ -141,8 +154,24 @@ a{
     height:100 px;
 }
 .croquis{
-    padding: 0;
-    margin: 300px;
+    padding:none;
     text-align: center;
-    box-shadow: 10px 10px 10px black;
+}
+.croquis img{
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 5px 5px 2px black;
+
+    
+}
+
+.croquis img:hover{
+    opacity: 0.9;
+}
+.croquis img:active{
+    position: relative;
+    top:6px;
+    left:6px;
+    box-shadow: 2px 2px 2px black;
 }
