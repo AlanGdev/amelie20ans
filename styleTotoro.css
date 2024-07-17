@@ -56,12 +56,14 @@ p{
     margin-bottom: 15px;
 }
 h2{
+    display: inline-block;
     font-family: "Dawning of a New Day",cursive;
     padding: 10px;
     border-radius: 20px;
     font-size: 3em;
-    background-color: rgba(255, 255, 255, 0.702);
+    background-color: rgba(255, 255, 255, 0.82);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.532);
+    text-align: center;
     position: sticky;
     top: 20px;
 
