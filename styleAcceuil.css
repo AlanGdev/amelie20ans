@@ -19,8 +19,34 @@ h2{
 
 .cadeau{
     border-radius: 30px;
-    opacity: 0.5;
+    animation: clignoter 1s infinite;
 }
 .cadeau:hover{
     opacity: 1;
+}
+/* Définir l'animation de rotation avec accélération et décélération */
+@keyframes rotation  {
+/*    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }*/
+}
+
+/* Appliquer l'animation à la classe tourne */
+.tourne {
+    display: inline-block;
+    animation: rotation 20s cubic-bezier(0.25, 0.1, 0.25, 1) 1s forwards; /* Utilisation de cubic-bezier pour l'accélération/décélération */
+}
+@keyframes clignoter {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
